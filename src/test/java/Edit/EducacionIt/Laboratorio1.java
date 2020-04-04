@@ -37,10 +37,11 @@ public class Laboratorio1 {
 	 
 	@Test
 	public void lab1_E1(){
+		//Propiedades para Ejecutar el driver de Chrome
+		System.setProperty("webdriver.chrome.driver","..\\EducacionIt\\Drivers\\chromedriver.exe");
 		//instanciar Driver de Chrome + importar libreria org.openqa.selenium.chrome.ChromeDriver
 		WebDriver d= new ChromeDriver();
-		//Propiedades para Ejecutar el driver de Chrome
-		System.setProperty("webdriver.chrome.driver","..\\Drivers\\chromedriver.exe");
+		
 		//Ir a url
 		d.get("https://selenium.dev/");
 		//Cerrar navegador
@@ -62,15 +63,15 @@ public class Laboratorio1 {
 	
 	@Test
 	public void lab1_E2(){
-	
+		//Propiedades para ejecutar el driver de Firefox	
+		
+		System.setProperty("webdriver.gecko.driver","..\\EducacionIt\\Drivers\\geckodriver.exe");
 		//Instancias Driver de Firefox + importar libreria	
 		
 		WebDriver d= new FirefoxDriver();
 		
-		//Propiedades para ejecutar el driver de Firefox	
 		
-		System.setProperty("webdriver.gecko.driver","..\\Drivers\\geckodriver.exe");
-		
+			
 		d.get("https://selenium.dev/");
 		
 		d.manage().window().maximize();
@@ -99,9 +100,11 @@ public class Laboratorio1 {
 	@Test
 	public void lab1_E3(){
 
-		WebDriver d= new ChromeDriver();
+		
 		//Propiedades para Ejecutar el driver de Chrome.
-		System.setProperty("webdriver.chrome.driver","C:\\workplaces\\Trunk\\EducacionIt\\Drivers\\chromedriver63.exe");
+		System.setProperty("webdriver.chrome.driver","..\\EducacionIt\\Drivers\\chromedriver.exe");
+		WebDriver d= new ChromeDriver();
+		
 		//Ir a url
 		d.get("https://selenium.dev/");
 		
@@ -109,8 +112,7 @@ public class Laboratorio1 {
 		WebElement textBuscador = d.findElement(By.id("gsc-i-id1"));
 		textBuscador.sendKeys("Maven");
 		textBuscador.sendKeys(Keys.ENTER);
-		
-		
+				
 		//Cerrar navegador
 		d.quit();
 	}

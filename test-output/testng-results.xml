@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20270" started-at="2020-04-03T20:10:14 ART" finished-at="2020-04-03T20:10:34 ART">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20270" started-at="2020-04-03T20:10:14 ART" finished-at="2020-04-03T20:10:34 ART">
+      <class name="pruebas.Test_Laboratorio4_E1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:pruebas.Test_Laboratorio4_E1@3fd7a715]" name="setup" is-config="true" duration-ms="29665" started-at="2020-04-03T20:09:44 ART" finished-at="2020-04-03T20:10:14 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="crearCuentaInvalida(java.lang.String)[pri:0, instance:pruebas.Test_Laboratorio4_E1@3fd7a715]" name="crearCuentaInvalida" duration-ms="4244" started-at="2020-04-03T20:10:18 ART" data-provider="Prueba login" finished-at="2020-04-03T20:10:22 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dasda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crearCuentaInvalida -->
+        <test-method status="PASS" signature="crearCuentaInvalida(java.lang.String)[pri:0, instance:pruebas.Test_Laboratorio4_E1@3fd7a715]" name="crearCuentaInvalida" duration-ms="3040" started-at="2020-04-03T20:10:22 ART" data-provider="Prueba login" finished-at="2020-04-03T20:10:25 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3123123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crearCuentaInvalida -->
+        <test-method status="PASS" signature="crearCuentaInvalida(java.lang.String)[pri:0, instance:pruebas.Test_Laboratorio4_E1@3fd7a715]" name="crearCuentaInvalida" duration-ms="3123" started-at="2020-04-03T20:10:25 ART" data-provider="Prueba login" finished-at="2020-04-03T20:10:29 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123sddsa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crearCuentaInvalida -->
+        <test-method status="PASS" signature="crearCuentaInvalida(java.lang.String)[pri:0, instance:pruebas.Test_Laboratorio4_E1@3fd7a715]" name="crearCuentaInvalida" duration-ms="2909" started-at="2020-04-03T20:10:29 ART" data-provider="Prueba login" finished-at="2020-04-03T20:10:31 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crearCuentaInvalida -->
+        <test-method status="PASS" signature="crearCuentaInvalida(java.lang.String)[pri:0, instance:pruebas.Test_Laboratorio4_E1@3fd7a715]" name="crearCuentaInvalida" duration-ms="2298" started-at="2020-04-03T20:10:31 ART" data-provider="Prueba login" finished-at="2020-04-03T20:10:34 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dasda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crearCuentaInvalida -->
+      </class> <!-- pruebas.Test_Laboratorio4_E1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
